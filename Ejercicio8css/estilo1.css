@@ -1,0 +1,50 @@
+table {
+   width: 20%;
+   border: 1px solid #000;
+   /*border-collapse: collapse;  <- sirve para juntar los bordes de una tabla*/
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+} 
+ 
+    
+ 
+
+.euro {
+   background: url('euro.png') no-repeat left center;
+   background-size: 15px;
+   padding-left: 20px;
+   line-height: 1;
+   background-color:#cbe7ff;
+}
+.dolar {
+   background: url('dolar.png') no-repeat left center;
+   background-size: 15px;
+   padding-left: 20px;
+   line-height: 1;
+   background-color:#cbe7ff;
+}
+.yen {
+   background: url('yen.png') no-repeat left center;
+   background-size: 15px;
+   padding-left: 20px;
+   line-height: 1;
+   background-color:#cbe7ff;
+}
+.libra {
+   background: url('libra.png') no-repeat left center;
+   background-size: 15px;
+   padding-left: 20px;
+   line-height: 1;
+   background-color:#cbe7ff;
+}
+
+th.euro ~ td {
+   background-color: #FFFF66;
+}
+th.libra ~ td{
+   background-color: #FFFF66;
+}
