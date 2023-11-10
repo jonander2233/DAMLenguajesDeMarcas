@@ -1,0 +1,15 @@
+.sinNa{
+    list-style-type: none;
+}
+.circulos{
+    list-style-type: circle;
+}
+.cuadrads{
+    list-style-type: square;
+}
+.nRomanos{
+    list-style-type: lower-roman;
+}
+.letrasGriegas{
+    list-style-type: lower-greek;
+}
