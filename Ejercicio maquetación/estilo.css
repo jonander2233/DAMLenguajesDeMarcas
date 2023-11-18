@@ -1,0 +1,107 @@
+@media (min-width: 320px) and (max-width: 640px){
+    .divmini{
+        border-radius: 0.2cm;
+        height: 90px;
+        margin:  10px;
+        width: 80%;
+        position: relative;
+        top: 3%;
+        left: 50px;
+    }
+    
+    .div{
+        border-radius: 0.2cm;
+        height: 360px;
+        width: 100%;
+        margin:  3px;
+    }
+    #div1 {
+        height: 100px;
+        background-color: blue;
+    }
+    #div2 {
+        height: 100px;
+        background-color: red;
+    }
+    #div3 {
+        height: 360px;
+        background-color: green;
+    }
+    #subdiv1{
+        background-color: coral;
+    }
+    #subdiv2{
+        background-color: coral;
+        
+    }
+    #subdiv3{
+        background-color: coral;
+
+    }
+    #div4 {
+        background-color: purple;
+        height: 150px;
+    }
+}
+@media (min-width: 641px) and (max-width: 1024px){
+    .div{
+        border-radius: 6px;
+        height: 360px;
+        width: 100%;
+        margin: 5px;
+    }
+    #div1 {
+        height: 100px;
+        background-color: blue;
+    }
+    #div2 {
+        width: 25%;
+        background-color: red;
+    }
+    #div3 {
+        background-color: green;
+        width: 74%;
+        position: relative;
+        top: -365px;
+        left: 26%;
+    }
+    #div4 {
+        background-color: purple;
+        height: 150px;
+        position: relative;
+        top: -363px;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1366px){
+    .div{
+        border-radius: 6px;
+        height: 460px;
+        width: 990px;
+        margin: 5px;
+    }
+    #div1 {
+        height: 150px;
+        background-color: blue;
+    }
+    #div2 {
+        width: 220px;
+
+        background-color: red;
+    }
+    #div3 {
+        background-color: green;
+        width: 765px;
+        position: relative;
+        top: -465px;
+        left: 225px;
+    }
+    #div4 {
+        background-color: purple;
+        height: 200px;
+        position: relative;
+        top: -463px;
+    }
+    
+    }
