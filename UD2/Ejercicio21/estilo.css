@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+ 
+    /* width:ancho */
+    /* height:alto  */
+  
+  @media (min-width: 601px) and (max-width: 1200px) {
+    .datosPersonales {
+      position: absolute;
+      left: 0;
+      top: 80px;
+      width: 30%;
+      height: 80%; 
+    }
+  
+    .formacionAcademica,
+    .experienciaLaboral {
+      position: absolute;
+      left: 30%;
+      width: 70%;
+      height: 50%;
+    }
+  
+    .formacionAcademica {
+        top: 80px;
+    }
+  
+    .experienciaLaboral {
+        top: 285px;
+    }
+  }
+  @media (min-width: 1201px) {
+    .datosPersonales {
+        position: absolute;
+        left: 0;
+        top: 80px; 
+        width: 30%;
+        height: 80%; 
+    }
+    
+    .formacionAcademica,
+    .experienciaLaboral {
+        position: absolute;
+        width: 70%;
+        height: 80%; 
+    }
+    
+    .formacionAcademica {
+        left: 30%;
+        top: 80px;
+    }
+    
+    .experienciaLaboral {
+        left: 60%;
+        top: 80px;
+      }
+
+
+
+  }
+  
