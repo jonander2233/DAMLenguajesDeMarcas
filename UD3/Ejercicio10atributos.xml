@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operaciones [
+    <!ELEMENT operaciones (operacion+)>
+    <!ELEMENT operacion ((venta|compra)+)>
+    <!ELEMENT venta (titulosvendidos)>
+    <!ELEMENT titulosvendidos (titulo+,cantidad,entregado?,importe)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT entregado (#PCDATA)>
+    <!ATTLIST importe moneda CDATA #REQUIRED>
+    <!ELEMENT importe (#PCDATA)>
+    <!ELEMENT compra (tituloscomprados)> 
+    <!ELEMENT tituloscomprados (titulo+,proveedor,fecha_compra)>
+    <!ELEMENT proveedor (#PCDATA)>
+    <!ELEMENT fecha_compra (dia,mes,year)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    ]
+>
+<operaciones>
+    <operacion>
+        <venta>
+            <titulosvendidos>
+                <titulo></titulo>
+                <cantidad></cantidad>
+                <entregado></entregado>
+                <importe moneda="EUR">100.00</importe>
+            </titulosvendidos>
+        </venta>
+    </operacion>
+</operaciones>

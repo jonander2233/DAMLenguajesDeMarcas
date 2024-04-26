@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<componentes xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="componentes.xsd">
+    <listacomponentes>
+        <componente>
+          <tarjetagrafica>
+            <memoria>2GB</memoria>
+            <precio moneda="euros">190</precio>
+          </tarjetagrafica>
+        </componente>
+        <componente codigo="123456">
+          <monitor>
+            <tamanio>14</tamanio>
+            <precio moneda="euros">99.49</precio>
+          </monitor>
+        </componente>
+    </listacomponentes>
+</componentes>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frutas>
+    <fruta>cereza</fruta>
+    <fruta>naranja</fruta>
+</frutas>
+<!-- he quitado los espacios que habían en los elementos delante y dertás pasando de "< elemento > </ elemento >" a "<elemento></elemento>" -->
+<!-- he quitado el elemento nombre ya que lo veía innecesario -->

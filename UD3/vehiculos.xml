@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehiculos>
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo>
+        <vehiculo>coche</vehiculo>
+        <vehiculo>tractor</vehiculo>
+    </terrestres>
+    <acuaticos>
+        <vehiculo>canoa</vehiculo>
+    </acuaticos>
+    <aereos>
+        <vehiculo>avioneta</vehiculo>
+        <vehiculo>helicoptero</vehiculo>
+    </aereos>
+</vehiculos>
+
+<!-- he quitado los espacios en "<?xml version="1.0" encoding="UTF-8"?>",  
+a parte he cambiado la palabra "versión" por "version" y "encodin" por "encoding" ya que estaba mal escrito
+he agregado los cierres a los elementos "<terrestres>,<acuaticos> y <aereos>"
+he agregado un elemento principal llamado vehiculos
+he eliminado el acento de "helicóptero" ya que la codificación es utf-8, podría mantener el acento cambiando la codificación -->

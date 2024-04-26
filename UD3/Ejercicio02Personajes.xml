@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <personaje>
+        <nombre>Ada</nombre>
+        <apellidos>Lovelace</apellidos>
+        <lugardenacimiento>Londres, Reino Unido</lugardenacimiento>
+        <fechanacimiento>
+            <dia>10</dia>
+            <mes>12</mes>
+            <ano>1815</ano>
+        </fechanacimiento>
+    </personaje>
+    <personaje>
+        <nombre>Andrew</nombre>
+        <apellidos>Tanenbaum</apellidos>
+        <lugardenacimiento>Nueva York, Estados unidos</lugardenacimiento>
+        <fechanacimiento>
+            <dia>16</dia>
+            <mes>3</mes>
+            <ano>1944</ano>
+        </fechanacimiento>
+    </personaje>
+    <personaje>
+        <nombre>Ángela</nombre>
+        <apellidos>Ruiz Robles</apellidos>
+        <lugardenacimiento>Villamanin</lugardenacimiento>
+        <fechanacimiento>
+            <dia>28</dia>
+            <mes>3</mes>
+            <ano>1895</ano>
+        </fechanacimiento>
+    </personaje>
+    <personaje>
+        <nombre>Linus</nombre>
+        <apellidos>Torvalds</apellidos>
+        <lugardenacimiento>Helsinki, Finlandia</lugardenacimiento>
+        <fechanacimiento>
+            <dia>28</dia>
+            <mes>12</mes>
+            <ano>1969</ano>
+        </fechanacimiento>
+    </personaje>
+</lista>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas [
+    <!ELEMENT listaventas ((ventapc|ventamonitor)+|(comprapc|compramonitor)+)>
+    <!ELEMENT comprapc (#PCDATA)>
+    <!ELEMENT compramonitor (#PCDATA)>
+    <!ELEMENT ventapc (#PCDATA)>
+    <!ELEMENT ventamonitor (#PCDATA)>
+    ]
+>
+
+<listaventas>
+    <comprapc></comprapc>
+    <compramonitor></compramonitor>
+</listaventas>

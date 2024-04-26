@@ -1,1 +1,19 @@
-    
+.caja1{
+    border-bottom: 2px solid blue;
+}
+.caja1_contenido{
+    margin: 0;
+}
+.caja2{
+    border: 2px solid rgb(0, 0, 0);
+}
+.caja2_contenido{
+    margin: 0;
+}
+.caja3{
+    border-top: 4px dotted red;
+    border-bottom: 4px dotted red;
+}
+.caja4{
+    border: 2px dashed #0F0;
+}

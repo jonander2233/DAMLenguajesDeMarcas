@@ -1,0 +1,11 @@
+<listaclientes>
+    <cliente>
+        <cif>123456789</cif>
+        <nombre>jon</nombre>
+    </cliente>
+    <cliente>
+        <cif>123456789</cif>
+        <nombre>jon</nombre>
+        <diasentrega></diasentrega>
+    </cliente>
+</listaclientes>

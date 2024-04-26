@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+    <pais>
+        <espana>
+            <capital>Madrid</capital>
+            <continente>Europa</continente>
+            <numhabitantes>47,42 millones</numhabitantes>
+        </espana>
+    </pais>
+    <pais>
+        <francia>
+            <capital>Paris</capital>
+            <continente>Europa</continente>
+            <numhabitantes>67,75 millones</numhabitantes>
+        </francia>
+    </pais>
+    <pais>
+        <italia>
+            <capital>Roma</capital>
+            <continente>Europa</continente>
+            <numhabitantes>59,11 millones</numhabitantes>
+        </italia>
+    </pais>
+    <pais>
+        <egipto>
+            <capital>El Cairo</capital>
+            <continente>Africa</continente>
+            <numhabitantes>109,3 millones</numhabitantes>
+        </egipto>
+    </pais>
+    <pais>
+        <zambia>
+            <capital>Lusaka</capital>
+            <continente>Africa</continente>
+            <numhabitantes>19,47 millones</numhabitantes>
+        </zambia>
+    </pais>
+    <pais>
+        <mexico>
+            <capital>Ciudad de Mexico</capital>
+            <continente>America</continente>
+            <numhabitantes>126,7 millones</numhabitantes>
+        </mexico>
+    </pais>
+</paises>

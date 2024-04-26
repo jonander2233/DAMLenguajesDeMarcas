@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaproductos [
+    <!ELEMENT listaproductos (producto+)>
+    <!ELEMENT producto (raton,teclado,monitor)>
+    <!ELEMENT raton (codigo,nombre?,descripcion?)>
+    <!ELEMENT teclado (codigo,nombre?,descripcion?)>
+    <!ELEMENT monitor (codigo,nombre?,descripcion?)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+
+    ]
+>
+<listaproductos>
+    <producto>
+        <raton>
+            <codigo></codigo>
+        </raton>
+        <teclado>
+            <codigo></codigo>
+        </teclado>
+        <monitor>
+            <codigo></codigo>
+        </monitor>
+    </producto>
+    <producto>
+        <raton>
+            <codigo></codigo>
+            <nombre></nombre>
+        </raton>
+        <teclado>
+            <codigo></codigo>
+            <nombre></nombre>
+        </teclado>
+        <monitor>
+            <codigo></codigo>
+            <nombre></nombre>
+        </monitor>
+    </producto>
+    <producto>
+        <raton>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </raton>
+        <teclado>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </teclado>
+        <monitor>
+            <codigo></codigo>
+            <nombre></nombre>
+            <descripcion></descripcion>
+        </monitor>
+    </producto>
+</listaproductos>

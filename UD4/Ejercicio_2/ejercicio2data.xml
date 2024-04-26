@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes>
+    <estudiante matricula="AA">
+        <cicloFormativo>A</cicloFormativo>
+        <datosPersonales>
+            <nombre>X</nombre>
+            <apellidos>Y</apellidos>
+            <edad>Z</edad>
+        </datosPersonales>
+        <examenes>
+            <examen modulo="BB">
+                <datos>
+                    <fecha>AAA</fecha>
+                    <profesor>BBB</profesor>
+                    <aula>CCC</aula>
+                </datos>
+                <nota>DDD</nota>
+            </examen>
+            ...
+        </examenes>
+    </estudiante> 
+    ... 
+</estudiantes>

@@ -1,0 +1,52 @@
+
+.cajatotal{
+    width: 80%;
+    margin: 0 auto; 
+    /* background-color: #fcb1ff; */
+}
+.titulo{
+    /* background-color: #92d3ff; */
+    text-align: center;
+}
+.caja25{
+    /* background-color: #ff9292; */
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+.caja75{
+    /* background-color: #ff7272; */
+    display: inline-block;
+    width: 74%;
+}
+.lista{
+    display: inline-block;
+    width: 75%;
+    margin-right: 3%;
+    /* background-color: #8d6d6d; */
+    float: right;
+}
+.lista1{
+    list-style: none;
+    padding: 0;
+    width: 33%;
+    /* background-color: #beffb5; */
+    display: inline-block;
+    
+}
+.lista2{
+    list-style: none;
+    padding: 0;
+    vertical-align: top;
+    width: 33%;
+    /* background-color: #fd7878; */
+    display: inline-block;
+}
+.lista3{
+    list-style: none;
+    padding: 0;
+    vertical-align: top;
+    width: 33%;
+    /* background-color: aquamarine; */
+    display: inline-block;
+}

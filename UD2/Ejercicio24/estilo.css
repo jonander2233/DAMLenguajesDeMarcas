@@ -1,0 +1,29 @@
+
+.transicion1,
+.transicion2,
+.transicion3,
+.transicion4 {
+    width: 300px;
+    margin: 5px;
+    transition: width 1s, height 1s;
+}
+body{
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+.transicion1:hover{
+    opacity:0;
+    transition: opacity 1s ease-in-out;
+}
+.transicion2:hover{
+    transform:  translateX(300px) ;
+    transition: transform 1s;
+}
+.transicion3:hover{
+    transform: rotate(90deg);
+    transition: transform 1s;
+}
+.transicion4:hover{
+    width: 600px;
+}

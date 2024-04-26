@@ -1,0 +1,61 @@
+h1,h3{
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja1, .caja2 , .caja3 , .caja4 {
+    margin-inline: 10%;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    border: 2px solid #333;
+}
+.texto, .texto2 , .texto3 , .texto4{
+    position: absolute;
+    top: -15px; 
+    left: 7%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 5px;
+}
+.texto2{
+    left: 7%;
+
+}
+
+.texto{
+    left: 5%;
+}
+.texto3{
+    left: 12%;
+}
+.texto4{
+    left: 12%;
+}
+.boton{
+    text-align: center;
+    border: 1px solid #333;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 80px;
+    padding: 0;
+    margin: 20px;
+    background: linear-gradient( white, rgb(206, 206, 206), white);
+}
+.textoboton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input:hover{
+    background-color: red;
+}
+input:focus{
+    background-color: yellow;
+}

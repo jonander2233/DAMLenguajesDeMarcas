@@ -1,0 +1,35 @@
+h1 {
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin: 0%;
+}
+
+.clase1, .clase2, .clase3 {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+.textoclase1, .textoclase2, .textoclase3 {
+    position: relative;
+    top: 0%;
+}
+.clase1{
+    background: linear-gradient(90deg,grey,skyblue,pink);
+}
+.clase2 {
+    background: linear-gradient(180deg, yellow,30%,green,grey, pink);
+    transform: rotate(90deg);
+    left: 350px;
+}
+
+.clase3 {
+    background: linear-gradient(270deg,orange,yellow,green);
+    transform: rotate(180deg);
+    left: 700px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Animacion</title>
+
+<style>
+@keyframes orbit {
+   from {
+      transform: rotate(0deg) translateX(350px) rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg) translateX(350px) rotate(-360deg);
+   }
+}
+
+.moon {
+   animation: orbit 5s linear infinite;
+}
+
+body {
+   background: url(space.jpg);
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+}
+
+.earth {
+   position: absolute;
+   margin: 0 auto;
+   width: 300px;
+}
+
+.earth img {
+   width: 300px;
+}
+
+.moon {
+   position: absolute;
+   top: calc(50% - 25px);
+   left: calc(50% - 25px);
+   width: 50px;
+   height: 50px;
+}
+
+.moon img {
+   width: 50px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="earth">
+			<img src="earth.png" />
+		</div>
+		<div class="moon">
+			<img src="moon.png" />
+		</div>
+	</div>
+</body>
+</html>
